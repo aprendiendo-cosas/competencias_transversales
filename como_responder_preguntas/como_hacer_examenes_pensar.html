@@ -1,0 +1,617 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.428571; overflow-x: hidden; background: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+thead, tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; border-right-style: none; border-right-color: currentcolor; background-color: inherit; }
+.CodeMirror-linenumber { -webkit-user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  .typora-export * { print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: medium; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; border-bottom-style: none; border-bottom-color: currentcolor; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: medium; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.428571rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
+.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
+.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
+.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
+.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
+.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left-width: 0.25em; border-left-style: solid; border-left-color: rgb(0, 0, 0); }
+.md-alert-text-note { color: rgb(9, 105, 218); }
+.md-alert-text-important { color: rgb(130, 80, 223); }
+.md-alert-text-warning { color: rgb(154, 103, 0); }
+.md-alert-text-tip { color: rgb(31, 136, 61); }
+.md-alert-text-caution { color: rgb(207, 34, 46); }
+.md-alert-text { font-size: 0.9rem; font-weight: 700; }
+.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
+.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    pre {
+        page-break-inside: avoid;
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.mac-os #write{
+    caret-color: AccentColor;
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
+</style><title>como_hacer_examenes</title>
+</head>
+<body class='typora-export'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='cómo-contestar-una-pregunta-de-pensar'><span>Cómo contestar una pregunta &quot;de pensar&quot;</span></h1><blockquote><ul><li><p><strong><em><span>Versión</span></em></strong><span>: 2023-2024</span></p></li><li><p><strong><em><span>Autor</span></em></strong><span>: Curro Bonet-García (fjbonet@uco.es)</span></p></li></ul></blockquote><p>&nbsp;</p><h2 id='introducción'><span>Introducción</span></h2><p><span>En la actualidad disponemos de una enorme cantidad de información sobre casi cualquier cosa. Con solo un ordenador (o un móvil) conectado a internet, podemos aprender casi de lo que queramos. En este contexto, ¿qué sentido tiene aprender o memorizar? Si todo está a un click de ratón, ¿por qué tenemos que aprenderlo? Puede que la respuesta a esta pregunta vaya cambiando con el tiempo conforme avancen las técnicas de generación de información mediante inteligencia artificial, pero por ahora la clave está en las palabras </span><strong><span>integración</span></strong><span> y </span><strong><span>síntesis</span></strong><span>. Internet nos aporta una enorme cantidad de información, pero lo relevante es generar conocimiento a partir de esa información. El conocimiento se adquiere mediante el análisis, comprensión, la integración y la síntesis de la información sobre un aspecto determinado de la realidad. </span></p><p><span>Así pues, para generar conocimiento (útil) es necesario integrar y sintetizar la información disponible. Esto implica, en la mayoría de los casos, la reflexión profunda sobre los datos existentes. También requiere la existencia de habilidades de expresión oral y escrita que permitan describir el conocimiento adquirido.</span></p><p><span>Las preguntas de las asignatura de </span><em><span>ecología</span></em><span> y de </span><em><span>gestión de ecosistemas</span></em><span> requieren poner en juego todas las habilidades anteriores. Para superar los exámenes de estas asignaturas es necesario aprender a contestar preguntas que los estudiantes suelen denominar &quot;de pensar&quot;. Para ello los estudiantes tienen a su alcance una conexión a internet, uso de herramientas de IA y también acceso a los apuntes de las asignaturas. ¿A qué se debe ese empeño en este tipo de preguntas? Hay dos razones fundamentales para esto:</span></p><ul><li><p><span>Los objetos de estudio de ambas asignaturas son sistemas complejos adaptativos. En estos sistemas tienen mucha importancia las llamadas propiedades emergentes. Estas propiedades determinan en buena medida el funcionamiento del sistema y su respuesta a estímulos externos. La gran complejidad de estos sistemas los hace poco deterministas. Es decir, hay mucha incertidumbre asociado a cada posible cambio en el sistema. Por eso la respuesta &quot;depende&quot; es tan habitual. En la vida real no suele haber respuestas sencillas a las preguntas que nos hacemos en ecología. Eso hace que la respuesta final no sea fácilmente etiquetable como correcta o incorrecta. Lo que sí puede estar bien o mal es la aproximación, el razonamiento utilizado para llegar a dicha respuesta. Es decir, para aprender bien la estructura, dinámica y manejo de estos sistemas complejos es fundamental aprender a responder preguntas complejas. Las preguntas &quot;de pensar&quot; son un estupendo entrenamiento para ello.</span></p></li><li><p><span>La segunda razón se deriva de la primera: el mundo está lleno de sistemas complejos adaptativos. En la Universidad nos enfrentamos solo parcialmente a esta complejidad. Hay una red de seguridad que solo nos muestra algunas preguntas, casi siempre las más sencillas. Dicho de otra forma, después de la universidad todo en vuestras vidas estará lleno de preguntas complejas cuya respuesta es </span><em><span>depende</span></em><span>. Es razonable pensar que aprender a responder, o más bien a bailar con esas preguntas, en un ambiente controlado como la Universidad tiene menos riesgo que esperarse a terminar para enfrentarlas. ¿no os parece?</span></p></li></ul><p><span>Dicho lo anterior, todas las técnicas docentes de este profesor van orientadas a entrenar las habilidades necesarias para abordar problemas complejos. Ahí va una pequeña lista de dichas habilidades:</span></p><ul><li><p><span>Pensamiento crítico: cuestionar con argumentos lógicos las afirmaciones presentadas.</span></p></li><li><p><span>Habilidades de lectoescritura: saber escribir de manera coherente una respuesta ante un problema complejo sin solución evidente.</span></p></li><li><p><span>Búsqueda de información: las preguntas &quot;de pensar&quot; tienen siempre cuestiones que no conoce el estudiante porque no se han visto en la asignatura. Eso es así en la vida. La clave es aprender a buscar dichas soluciones parciales para unirlas a continuación y generar una respuesta coherente a la pregunta.</span></p></li><li><p><span>Reflexión profunda: reflexionar es sinónimo de pensar de manera profunda sobre una cuestión concreta teniendo en cuenta multitud de fuentes de información diferente. Reflexionar es un proceso deliberado que autocuestiona las propias conclusiones y que es dinámico en la medida en la que el resultado cambia cuando entra nueva información al proceso. En el proceso de reflexión es fundamental establecer conexiones entre pensamientos o informaciones parciales que se unen para dar una respuesta más o menos adecuada a la pregunta general. </span></p></li></ul><p>&nbsp;</p><h2 id='propuesta-de-abordaje-de-preguntas-de-reflexión-en-ecología-y-en-gestión-de-ecosistemas'><span>Propuesta de abordaje de preguntas de reflexión en ecología y en gestión de ecosistemas</span></h2><p><span>Para responder adecuadamente a una pregunta reflexiva o compleja, es importante seguir una serie de pasos. A continuación os propongo una organización que se parece mucho a lo que hago yo cuando me enfrento a una pregunta de este tipo. Pero estos pasos son personalizables y dependen de la forma en la que piense y procese la información cada uno. Es decir, es necesario adaptarlos, personalizarlos. Para esto es fundamental tener un amplio conocimiento metacognitivo: capacidad de comprender cómo pensamos y cómo aprendemos. Con esto quiero decir que no os toméis al pie de la letra los siguientes pasos. Son solo una propuesta que podréis adaptar con el tiempo a vuestra forma de pensar. De hecho, lo realmente importante no son los siguientes pasos, sino que haya unos pasos... Para hacer cualquier cosa en la vida, es necesario tener un plan. Lo que viene a continuación es una propuesta de plan que podréis adaptar a vuestra situación. Por último, antes de describirlos, quiero remarcar que otra clave importante es el entrenamiento. Nuestro cerebro aprende en buena medida por repetición. En la medida en la que automaticemos procedimientos, nuestro cerebro va mejorando sus habilidades reflexivas e integrativas. Por eso la clave es repetir el siguiente esquema muchas veces.</span></p><p><span>Vamos a ello:</span></p><h3 id='leer-y-entender-la-pregunta-5'><span>Leer y entender la pregunta (5&#39;)</span></h3><p><span>Este primer paso parece demasiado obvio. Me atrevería a decir que es casi ofensivo... Estoy seguro de que fuera de un examen sois más que capaces de leer y entender una pregunta. Pero los nervios del examen suelen jugarnos malas pasadas. Así que, insisto: debes de leer la pregunta tantas veces como sea necesaria para entenderla. Uno sabe que ha entendido algo cuando es capaz de explicárselo a su abuela. Al menos eso es lo que dicen que dijo Einstein. Sea o no cierta la cita, tiene mucho sentido. Bueno, en un examen no tendrás a tu abuela para explicarle nada. Nuestro cerebro es capaz de elaborar un discurso coherente cuando ha entendido los elementos que constituyen dicho discurso.</span></p><p><span>Este primer paso puede durar unos 5 minutos. Si tienes dudas, pregúntalas al profesor. Si tu pregunta es mala, obtendrás una respuesta mala. Si tu pregunta es elaborada, seguramente no necesitarás la respuesta porque te vendrá a la cabeza justo después de formularla. Nuestro cerebro funciona a así. Toma conciencia de cosas anteriormente desconocidas cuando es capaz de hilbanar adecuadamente una pregunta. </span></p><p><span>En este primer paso no recomiendo que uséis herramientas de IA. Estas herramientas son aún muy primitivas y tienen una capacidad explicativa relativa. En cualquier caso, si preguntáis, hacedlo de la forma más específica y detallada posible. </span></p><h3 id='identificar-conceptos-e-ideas-clave-de-la-pregunta-5'><span>Identificar conceptos e ideas clave de la pregunta (5&#39;)</span></h3><p><span>Seguramente en el paso anterior se irán poniendo de manifiesto ideas o conceptos que te resultan claves. Por ejemplo, si en la pregunta se menciona una especie concreta, pues su nombre y ecología serán elementos importantes para responderla. Ahora es el momento de subrayar o anotar dichos conceptos de alguna forma. A mí me gusta mucho usar mapas mentales, pero tú puedes usar la herramienta que prefieras.</span></p><p><span>Puede que algunos de los conceptos que consideres clave sean desconocidos para ti. Es importante que encuentres esas ideas cuanto antes porque eso te permitirá (en los siguientes pasos) recopilar información sobre ellos. </span></p><p><span>Fíjate que no estamos aún intentando responder a la pregunta. No sabemos responder a la pregunta general. Lo que estamos haciendo es identificar los elementos clave de la misma. Es como si rompiéramos la pregunta general en piezas pequeñas más abordables. Estas preguntas más sencillas sí que pueden tener respuestas sencillas. </span></p><h3 id='establecer-relaciones-de-los-conceptos-anteriores-con-las-teorías-ecológicas-5'><span>Establecer relaciones de los conceptos anteriores con las teorías ecológicas (5&#39;)</span></h3><p><span>Al leer la pregunta y al tratar de identificar conceptos clave te deben de venir a la cabeza relaciones con aspectos que hemos visto en la asignatura. Nuestro cerebrro es una maquina relacional. Esto quiere decir que aprender a partir de la relación entre conceptos. Por ejemplo, sabemos que una silla es una silla porque la comparamos con otras cosas parecidas que no son una silla (ej. una cama). Este ejemplo es muy obvio, pero funciona así en general. Si en el enunciado de la pregunta lees algo así: &quot;el fuego calcinó todo el bosque excepto los invididuos más altos y viejos&quot;, tu cerebro debería devolverte los siguientes conceptos (entre otros):</span></p><ul><li><p><span>Sucesión ecológica que se activa tras el incendio.</span></p></li><li><p><span>Resistencia y resiliencia frente a perturbaciones.</span></p></li><li><p><span>Cambios en la estructura y funcionamiento del bosque.</span></p></li><li><p><span>Red trófica afectada por el incendio.</span></p></li></ul><p><span>Dependiendo de hacia dónde se dirija la pregunta tendrás que usar uno, alguno o todos los conceptos que te evoquen las ideas formuladas.</span></p><p><span>Anota en algún sitio (de nuevo sugiero un mapa mental) la relación existente entre las ideas que hay en la pregunta y las que te vienen a ti a la cabeza.</span></p><h3 id='buscar-información-sobre-aspectos-desconocidos-por-tí-10'><span>Buscar información sobre aspectos desconocidos por tí (10&#39;)</span></h3><p><span>No todos los conceptos o ideas identificados anteriormente te resultarán familiares. Hemos visto muchas cosas en clase, pero el mundo es grande y hay muchas cuestiones que siempre quedan pendientes. La buena noticia es que si has entendido bien lo que hemos visto en clase y si sigues estas instrucciones, estarás en disposición de aprender muchas cosas durante el examen. Y eso es altamente gratificante.</span></p><p><span>En este apartado buscamos en internet, en los apuntes o consultando con cualquier IA, aspectos concretos que desconocemos sobre la pregunta en cuestión. Por ejemplo, si en el enunciado se menciona una especie que no conoces, es el momento de buscar información sobre ella. O si hay un proceso ecológico nuevo para tí, pues lo buscas y ya. En esta fase te recomiendo que uses herramientas sencillas como Wikipedia, Khan Academy o IAs conversacionales. Anota en algún sitio (yo recomiendo un mapa mental) las ideas mas relevantes que encuentres. Es importante que no copies ciegamente lo que encuentras en internet. Tienes que filtrarlo por tu conocimiento y tu sentido común. Por ejemplo, si en la pregunta del examen se habla del suelo en una zona quemada y en wikipedia encuentras un artículo en el que se habla de suelos contaminados por metales pesados, no uses el mismo ejemplo porque responden a realidades diferentes. </span></p><p><span>Esta fase del proceso será tanto más corta cuanto más hayas estudiado el temario de la asignatura...</span></p><h3 id='construir-un-hilo-argumental-20'><span>Construir un hilo argumental (20&#39;)</span></h3><p><span>Entramos ahora en la que, en mi opinión, es la clave de este tipo de preguntas. Un hilo argumental es eso, una línea que nos permite conectar conceptos para generar un argumento, una historia. Nuestro cerebro aprende fundamentalmente a través de historias. Los libros, las películas, los videojuegos, etc., son manifestaciones culturales de esta capacidad innata de nuestro cerebro. Contestar una pregunta &quot;de pensar&quot; consiste, en buena medida, en contar una historia cargada de evidencias y de conexión con elementos teóricos de la disciplina en cuestión. </span></p><p><span>La creación de un hilo argumental es, de alguna manera, una forma concreta de ver la complejidad de la realidad. La pregunta del examen se puede responder de muchas maneras diferentes. Tú debes de elegir una, la que más te guste. En esa forma de contar la historia deben de incluirse los conceptos que has encontrado anteriormente, así como las respuestas parciales que hay en la pregunta compleja. Para construir un hilo argumental coherente es necesario definir una estructura concreta. Es decir, hay que definir una serie de pasos por los que empezar a contar la historia. Para hacer esto, te recomiendo que hagas lo siguiente anotándolo todo en un mapa mental:</span></p><ul><li><p><span>Identifica los conceptos más generales por los que quieres empezar a contar tu historia. En un examen, estos conceptos suelen coincidir con las preguntas más generales. Por ejemplo, si la pregunta gira en torno al concepto de incendio forestal, este será nuestro concepto principal. Una o dos frases introductorias ayudarán a contextualizar la pregunta.</span></p></li><li><p><span>Define apartados o &quot;cajones&quot; que contienen ideas relacionadas jerárquicamente con las anteriores. Volviendo al ejemplo anterior, si se trata de analizar el efecto de un incendio forestal, la lista de compartimentos del ecosistema afectados por el incendio podría formar parte de esta lista de apartados: efectos sobre la vegetación, sobre el suelo, etc. </span></p></li><li><p><span>Puedes repetir esta relación jerárquica (conceptos anidados) tantas veces como consideres. Volviendo al ejemplo anterior, en el apartado de efectos del fuego sobre el suelo, puedes crear otros que hablen del efecto sobre la estructura del suelo, o sobre la fauna, etc.</span></p></li><li><p><span>Al final de cada &quot;rama&quot; de tu hilo argumental puedes poner evidencias o afirmaciones concretas. Por ejemplo: &quot;el fuego destruye los agregados del suelo y esto hace que la zona pueda llegar a desertificarse&quot;. En este proceso puede que aparezcan conceptos nuevos que requieran un trabajo de búsqueda (ej. desertificación). Es importante que anotes la fuente de información que usas para cada afirmación. Si no la necesitas porque ya lo sabes, no es necesario decir nada.</span></p></li></ul><p><span>Si vas sobrado/a de tiempo, puedes probar distintos hilos argumentales. En cada versión verás como lo que cambian son los conceptos jerárquicamente superiores. Las afirmaciones o evidencias que responden a las preguntas parciales del examen, se suelen mantener constantes. </span></p><h3 id='escribir-la-respuesta-a-la-pregunta-15'><span>Escribir la respuesta a la pregunta (15&#39;)</span></h3><p><span>Ya estamos en la parte final de la pregunta. Ahora se trata de describir en un breve texto el hilo argumental anterior. Si lo has hecho en un mapa mental, puedes transformarlo en un texto poniendo consecutivamente sus distintas ramas. Luego, basta con dar forma a las frases y en unir los conceptos de nivel más detallado mediante frases. En esta última etapa tendrás que poner en práctica tus habilidades de escritura. En este sentido, recomiendo lo siguiente:</span></p><ul><li><p><span>Usar frases relativamente cortas. Y alternar frases largas con otras muy cortas.</span></p></li><li><p><span>No abusar de las subordinadas ni de las comas. Los puntos son útiles. Ayudan a separar ideas y evitan que el profesor se asfixie mientras lee..</span></p></li><li><p><span>Respetar tu hilo argumental, pero no morir en ello. Durante la escritura puede que cambie ligeramente la historia. No te preocupes, deja que fluya.</span></p></li><li><p><span>Cuida la ortografía y las leyes gramaticales.</span></p></li><li><p><span>No te olvides de añadir las referencias bibliográficas que hayas utilizado, así como enlaces a las conversaciones con IAs que hayas tenido. </span></p></li></ul><p><span>Si además del texto pones en la respuesta tus notas o el hilo argumental que has utilizado, me ayudarás a entender mejor cómo y qué has aprendido. </span></p><p>&nbsp;</p><h2 id='vídeo-explicativo'><span>Vídeo explicativo</span></h2><p><span>El siguiente vídeo muestra de manera práctica cómo contestar una pregunta &quot;de pensar&quot;. En dicho vídeo se trabaja con el siguiente material:</span></p><ul><li><p><a href='https://github.com/aprendiendo-cosas/competencias_transversales/raw/2023_2024/como_responder_preguntas/pregunta.docx'><span>Enunciado de la pregunta.</span></a></p></li><li><p><a href='https://github.com/aprendiendo-cosas/competencias_transversales/raw/2023_2024/como_responder_preguntas/ejemplo_pregunta_examen.xmind'><span>Mapa mental que contiene el hilo argumental.</span></a><span> </span></p></li><li><p><a href='https://github.com/aprendiendo-cosas/competencias_transversales/raw/2023_2024/como_responder_preguntas/respuesta.docx'><span>Texto con la respuesta</span></a></p></li></ul><iframe width="560" height="515" src="https://www.youtube.com/embed/XA3HnBd-qDI?si=JAKUKnXQ-IlY8j_n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div></div>
+</body>
+</html>
