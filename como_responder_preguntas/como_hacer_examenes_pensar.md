@@ -92,9 +92,9 @@ Si además del texto pones en la respuesta tus notas o el hilo argumental que ha
 
 El siguiente vídeo muestra de manera práctica cómo contestar una pregunta "de pensar". En dicho vídeo se trabaja con el siguiente material:
 
-+ [Enunciado de la pregunta.](https://github.com/aprendiendo-cosas/competencias_transversales/raw/2023_2024/como_responder_preguntas/pregunta.docx)
-+ [Mapa mental que contiene el hilo argumental.](https://github.com/aprendiendo-cosas/competencias_transversales/raw/2023_2024/como_responder_preguntas/ejemplo_pregunta_examen.xmind) 
-+ [Texto con la respuesta](https://github.com/aprendiendo-cosas/competencias_transversales/raw/2023_2024/como_responder_preguntas/respuesta.docx)
++ [Enunciado de la pregunta.](https://github.com/aprendiendo-cosas/competencias_transversales/raw/main/como_responder_preguntas/pregunta.docx)
++ [Mapa mental que contiene el hilo argumental.](https://github.com/aprendiendo-cosas/competencias_transversales/raw/main/como_responder_preguntas/ejemplo_pregunta_examen.xmind) 
++ [Texto con la respuesta](https://github.com/aprendiendo-cosas/competencias_transversales/raw/main/como_responder_preguntas/respuesta.docx)
 
 
 <iframe width="560" height="515" src="https://www.youtube.com/embed/XA3HnBd-qDI?si=JAKUKnXQ-IlY8j_n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
