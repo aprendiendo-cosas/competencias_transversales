@@ -90,7 +90,11 @@ Si además del texto pones en la respuesta tus notas o el hilo argumental que ha
 
 ## Vídeo explicativo
 
+El siguiente vídeo muestra de manera práctica cómo contestar una pregunta "de pensar". En dicho vídeo se trabaja con el siguiente material:
 
++ Enunciado de la pregunta.
++ [Mapa mental que contiene el hilo argumental.](https://github.com/aprendiendo-cosas/competencias_transversales/raw/main/como_responder_preguntas/ejemplo_pregunta_examen.xmind) 
++ Texto con la respuesta
 
 
 
