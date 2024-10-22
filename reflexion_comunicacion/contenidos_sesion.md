@@ -40,22 +40,31 @@ Así que, de alguna forma, esta sesión es un intento por mi parte de exhortizar
       + Otra recomendación que hago es que entrenéis la mirada ecológica en distintas situaciones de la vida cotidiana. Por ejemplo, ¿qué es el césped de Rabanales desde el punto de vista de la ecología?, ¿tiene sentido el concepto de diversidad en mi grupo de amigos?
       + Preguntad es también una buenísima forma de aprender ecología. A mí, a vuestros compañeros, a ChatGPT, etc.
       + Por último, os recomiendo que leais mucho. Artículos, libros, etc. Todo lo que caiga en vuestras manos y que "huela" a ecología será útil para fijar conocimientos. 
-    + Además de lo anterior, sospecho que detrás del "no sabemos cómo estudiar la asignatura" hay realmente un "no sabemos cómo se aprueba esta asignatura". Como he pasado varias veces por aquí, sospechaba que saldría esta cuestión. Uno de los problemas que tiene la clase es que estáis perdidos en el sentido de cómo aprobar. Ante esto, mi respuesta es la siguiente (aquí podéis ver las imágenes que proyecté mientras hablaba):
+    + Además de lo anterior, sospecho que detrás del "no sabemos cómo estudiar la asignatura" hay realmente un "no sabemos cómo se aprueba esta asignatura". Como he pasado varias veces por aquí, sospechaba que saldría esta cuestión. Uno de los problemas que tiene la clase es que estáis perdidos en el sentido de cómo aprobar. Ante esto, mi respuesta es la siguiente ([aquí](https://github.com/aprendiendo-cosas/competencias_transversales/raw/refs/heads/main/reflexion_comunicacion/comoestudiar.pptx) podéis ver las imágenes que proyecté mientras hablaba):
       + En primer lugar, es importante tomar conciencia de que el mundo ha cambiado tanto en las últimas décadas que las formas de aprender tienen que adaptarse. Ya no es eficaz considerar al profesor como una especie de fuente de saber de la que los estudiantes beben. Ahora tenemos internet y muchas IAs que juegan ese papel. Ahora, el profesor es un acompañante. Alguien que os da hilos de los que vosotros tenéis que tirar. Yo me encargo de guiaros en una especie de "amueblamiento" de la mente. En ese proceso, la reflexión que intentamos fomentar en la asignatura es determinante. Debemos de entrenar a nuestro cerebro a pensar (lo dice Einstein...)
       + En la actualiadad tenemos multitud de herramientas que nos ayudan a acceder a toda la información disponible en el mundo. Además, desde hace un par de años, también disponemos de otras (IAs generativas), que son capaces de elaborar conocimiento y algo de comprensión. En unos años, estas herramientas alcanzarán la maestría. Podemos usar esas herramientas y llegar a la maestría con 25 años (estáis a tiempo) o no usarlas y esperar a los 60... Para conseguir esto necesitamos usar las herramientas a nuestro alcance. Y en este contexto, un profesor se transforma (esta es mi opinión) en alguien que guía y no tanto en alguien que sabe muchas cosas.
       + Y es que el conocimiento no se transfiere de una mente a otra. No aprendéis porque yo os cuente cosas. Aprendéis cuando leéis, estudiáis en casa, habláis entre vosotros, etc. 
-      + Por último, las IAs generativas son una especie de tsunami que puede arrastrarnos sin que nos demos cuenta. Así que, ¿nos dejamos arrastrar o aprendemos a surfear? Yo prefiero lo segundo. ¿Jugamos?
+      + Además, las IAs generativas son una especie de tsunami que puede arrastrarnos sin que nos demos cuenta. Así que, ¿nos dejamos arrastrar o aprendemos a surfear? Yo prefiero lo segundo. ¿Jugamos?.
+      + Para cultivar las competencias anteriores necesitamos enfocar la asignatura de una forma poco ortodoxa. Y, sobre todo, los estudiantes tienen que cambiar el foco. Deben de pasar de tratar de satisfacer al profesor (foco externo) a trata de aprender (foco interno). Vosotros sois los protagonistas de esta película, no yo. Para conseguir esto, debéis de desconectar de la idea de aprobar. Yo como profesor soy el responsable de asegurar el aprobado si hay aprendizaje. Vuestra responsabilidad es aprender todo lo que podáis.
     
-    
+  + Además del "no saber cómo estudiar", otros estudiantes indican que las clases son demasiado lentas a veces y que repetimos demasiado ciertos conceptos. Ponen como ejemplo la gráfica del crecimiento logístico. Intentaré aportar más contenidos por si hay estudiantes que quieran incorporarlos a su aprendizaje. 
+  + También hay algunos comentarios sobre el uso de Prezi como herramienta para hacer presentaciones. Reconozco que esta herramienta puede ser compleja para tomar notas mientras se usa. Pero sus ventajas, en mi opinión, superan a las desventajas. Nos permite explorar cómo los conceptos ecológicos cambian con la escala espacial. Esto es algo importante en ecología. 
 
 
 
-![pensar](https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/einstein.png)
+![loquenogusta](https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/lo_que_no_gusta.png)
 
 
 
++ La última pregunta que abordamos nos permite explorar las limitaciones que los estudiantes perciben a la hora de ser más participativos en clase. La razón más frecuente es la timidez. Ahí poco puedo decir. Cada uno es como es. Solo quisiera animar a los estudiantes más tímidos a explorar formas de comunicación más discretas: telegram, encuestas, etc. Además de esta idea, surge un debate interesante sobre el miedo a cometer errores. Creo (y en esto coinciden algunos estudiantes) que desde pequeños nos inculcan este miedo. Ante eso, yo me pregunto, ¿qué sentido tiene ir a clase si uno ya sabe las cosas y no se equivoca? Además, el error es una estupenda oportunidad para aprender. Con cada uno de vuestros preguntas (correctas o incorrectas, yo intento extraer aprendizajes. Me permiten conoceros mejor y por tanto con eso puedo intentar personalizar la docencia. 
 
 
+
+![impedimentos](https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/impedimentos.png)
+
+
+
+Concluimos la sesión con un compromiso renovado por parte de los estudiantes para mejorar su comunicación por distintas vías. Yo también renuevo el mío de atender en la medida de mis posibilidades vuestras necesidades. 
 
 
 

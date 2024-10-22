@@ -1,0 +1,617 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.428571; overflow-x: hidden; background: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+thead, tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; border-right-style: none; border-right-color: currentcolor; background-color: inherit; }
+.CodeMirror-linenumber { -webkit-user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  .typora-export * { print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: medium; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; border-bottom-style: none; border-bottom-color: currentcolor; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: medium; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.428571rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
+.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
+.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
+.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
+.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
+.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left-width: 0.25em; border-left-style: solid; border-left-color: rgb(0, 0, 0); }
+.md-alert-text-note { color: rgb(9, 105, 218); }
+.md-alert-text-important { color: rgb(130, 80, 223); }
+.md-alert-text-warning { color: rgb(154, 103, 0); }
+.md-alert-text-tip { color: rgb(31, 136, 61); }
+.md-alert-text-caution { color: rgb(207, 34, 46); }
+.md-alert-text { font-size: 0.9rem; font-weight: 700; }
+.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
+.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    pre {
+        page-break-inside: avoid;
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.mac-os #write{
+    caret-color: AccentColor;
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
+</style><title>contenidos_sesion</title>
+</head>
+<body class='typora-export'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='reflexión-sobre-comunicación-estudiantes-profesor'><span>Reflexión sobre comunicación estudiantes-profesor</span></h1><blockquote><ul><li><p><strong><em><span>Tipo de material</span></em></strong><span>: </span><span style="display: inline-block; font-size: 12px; color: white; background-color: grey; border-radius: 5px; padding: 5px; font-weight: bold;"><span> Reflexión</span></span><span> </span></p></li><li><p><strong><em><span>Versión</span></em></strong><span>: 2024-2025</span></p></li><li><p><strong><em><span>Asignatura (grado)</span></em></strong><span>: Ecología (CCAA)</span></p></li><li><p><strong><em><span>Autor</span></em></strong><span>: Curro Bonet-García (fjbonet@uco.es)</span></p></li><li><p><strong><em><span>Duración</span></em></strong><span>: 40 minutos</span></p></li></ul></blockquote><p>&nbsp;</p><p><span>Este documento muestra de manera resumida una sesión reflexiva que se realizó el día 22 de octubre de 2024 en la asignatura de ecología. A continuación se reproduce de la forma más fiel posible cómo transcurrió la sesión.</span></p><p><span>La sesión está motivada por una sensación del profesor (a partir de ahora hablaré en primera persona). </span></p><p><span>Después de un par de meses de clase, he identificado que los estudiantes no expresan de forma eficaz sus impresiones sobre el desarrollo de las clases. Esa sensación está basada en algunos hechos:</span></p><ul><li><p><span>Hay muy pocas preguntas en clase. Los estudiantes responden a mis preguntas en clase, pero no hay mucha más participación.</span></p></li><li><p><span>La participación en los equipos de Teams es nula entre semana. Solo hay algo de actividad los días en los que tenemos prácticas.</span></p></li></ul><p><span>Ante esto es frecuente que el profesor incurra en una serie de juicios de valor: los estudiantes no tienen interés, pasan de la asignatura, no están motivados. Reconozco que tengo tentaciones de incurrir en esos juicios. Nuestro cerebro tiende a hacerlo porque juzgar es más barato energéticamente que reflexionar. Además, pone el foco en otros (</span><a href='https://es.wikipedia.org/wiki/Locus_(psicolog%C3%ADa)'><span>locus externo</span></a><span>) y eso nos quita responsabilidad.</span></p><p><span>Así que, de alguna forma, esta sesión es un intento por mi parte de exhortizar esos juicios de valor. Prefiero indagar y preguntar que juzgar a gente a la que apenas conozco aún. Ante el problema de falta de comunicación bidireccional, planteo las siguientes preguntas usando una presentación de Mentimeter:</span></p><ul><li><p><span>¿Cómo de motivado/a estás en las clases de ecología y cuánta energía sientes cuando asistes? Esta pregunta pretende identificar la disposición de los individuos a aprovechar al máximo las oportunidades de aprendizaje que brinda esta asignatura. La siguiente gráfica muestra esta disposición para los estudiantes que decidieron contestar la pregunta. El promedio de la clase tiene valores promedio de motivación y energía. Curiosamente hay varios estudiantes que tienen poca motivación y mucha energía, aunque pocos que tienen poca energía y mucha motivación. Afortunadamente hay pocos que tienen poca energía y poca motivación. La mayoría están motivados y tienen energía.</span></p></li></ul><p><img src="https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/motivacion_energia.png" referrerpolicy="no-referrer" alt="motivacion_energia"></p><ul><li><p><span>La segunda pregunta que abordamos está relacionada con los aspectos de la asignatura que están resultando positivos o que gustan a los estudiantes. Los resultados se muestran en la siguiente imagen. Me gusta constatar que los estudiantes son consciente de que me preocupo por ellos o que me interesa que aprendan a razonar. Pero lo que más me gusta es que les guste la &quot;libertad&quot;. Es curioso que os guste mucho la salida a Sierra Nevada cuando aún no la hemos hecho :)</span></p></li></ul><p>&nbsp;</p><p><img src="https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/lo_que_gusta.png" referrerpolicy="no-referrer" alt="loquegusta"></p><ul><li><p><span>También analizamos las cosas que no están gustando a la clase (ver siguiente imagen). Aquí encontramos un buen filón de ideas que nos ayudan a todos a entender por qué no hemos alcanzado aún una comunicación efectiva entre estudiantes y profesor. Veamos algunas de estas ideas</span></p><ul><li><p><span>Lo que más preocupa a los estudiantes es &quot;no saber cómo estudiar&quot;. Ante esto, conversamos sobre lo siguiente:</span></p><ul><li><p><span>La asignatura de ecología es deliberadamente ambigua porque la mirada ecológica del mundo también lo es. La respuesta más común en ecología es &quot;depende&quot;. Todo depende del contexto espacial, temporal, etc. No hay reglas absolutamente fijas. Por eso, si queremos aprender a ver el mundo con las gafas de la ecología, necesitamos también sostener la incertidumbre que eso implica. </span></p></li><li><p><span>Aún así, es posible estudiar esta asignatura y aprender con las clases. Propongo hacer lo siguiente para ello:</span></p><ul><li><p><span>Tomar apuntes en clase es importante. Reinterpretar lo que el profesor dice con tus propias palabras ayuda a fijar los conocimientos y a tomar conciencia del aprendizaje.</span></p></li><li><p><span>También es útil revisar los contenidos vistos cada día. Para eso están los guiones.</span></p></li><li><p><span>Otra recomendación que hago es que entrenéis la mirada ecológica en distintas situaciones de la vida cotidiana. Por ejemplo, ¿qué es el césped de Rabanales desde el punto de vista de la ecología?, ¿tiene sentido el concepto de diversidad en mi grupo de amigos?</span></p></li><li><p><span>Preguntad es también una buenísima forma de aprender ecología. A mí, a vuestros compañeros, a ChatGPT, etc.</span></p></li><li><p><span>Por último, os recomiendo que leais mucho. Artículos, libros, etc. Todo lo que caiga en vuestras manos y que &quot;huela&quot; a ecología será útil para fijar conocimientos. </span></p></li></ul></li><li><p><span>Además de lo anterior, sospecho que detrás del &quot;no sabemos cómo estudiar la asignatura&quot; hay realmente un &quot;no sabemos cómo se aprueba esta asignatura&quot;. Como he pasado varias veces por aquí, sospechaba que saldría esta cuestión. Uno de los problemas que tiene la clase es que estáis perdidos en el sentido de cómo aprobar. Ante esto, mi respuesta es la siguiente (</span><a href='https://github.com/aprendiendo-cosas/competencias_transversales/raw/refs/heads/main/reflexion_comunicacion/comoestudiar.pptx'><span>aquí</span></a><span> podéis ver las imágenes que proyecté mientras hablaba):</span></p><ul><li><p><span>En primer lugar, es importante tomar conciencia de que el mundo ha cambiado tanto en las últimas décadas que las formas de aprender tienen que adaptarse. Ya no es eficaz considerar al profesor como una especie de fuente de saber de la que los estudiantes beben. Ahora tenemos internet y muchas IAs que juegan ese papel. Ahora, el profesor es un acompañante. Alguien que os da hilos de los que vosotros tenéis que tirar. Yo me encargo de guiaros en una especie de &quot;amueblamiento&quot; de la mente. En ese proceso, la reflexión que intentamos fomentar en la asignatura es determinante. Debemos de entrenar a nuestro cerebro a pensar (lo dice Einstein...)</span></p></li><li><p><span>En la actualiadad tenemos multitud de herramientas que nos ayudan a acceder a toda la información disponible en el mundo. Además, desde hace un par de años, también disponemos de otras (IAs generativas), que son capaces de elaborar conocimiento y algo de comprensión. En unos años, estas herramientas alcanzarán la maestría. Podemos usar esas herramientas y llegar a la maestría con 25 años (estáis a tiempo) o no usarlas y esperar a los 60... Para conseguir esto necesitamos usar las herramientas a nuestro alcance. Y en este contexto, un profesor se transforma (esta es mi opinión) en alguien que guía y no tanto en alguien que sabe muchas cosas.</span></p></li><li><p><span>Y es que el conocimiento no se transfiere de una mente a otra. No aprendéis porque yo os cuente cosas. Aprendéis cuando leéis, estudiáis en casa, habláis entre vosotros, etc. </span></p></li><li><p><span>Además, las IAs generativas son una especie de tsunami que puede arrastrarnos sin que nos demos cuenta. Así que, ¿nos dejamos arrastrar o aprendemos a surfear? Yo prefiero lo segundo. ¿Jugamos?.</span></p></li><li><p><span>Para cultivar las competencias anteriores necesitamos enfocar la asignatura de una forma poco ortodoxa. Y, sobre todo, los estudiantes tienen que cambiar el foco. Deben de pasar de tratar de satisfacer al profesor (foco externo) a trata de aprender (foco interno). Vosotros sois los protagonistas de esta película, no yo. Para conseguir esto, debéis de desconectar de la idea de aprobar. Yo como profesor soy el responsable de asegurar el aprobado si hay aprendizaje. Vuestra responsabilidad es aprender todo lo que podáis.</span></p></li></ul></li></ul></li><li><p><span>Además del &quot;no saber cómo estudiar&quot;, otros estudiantes indican que las clases son demasiado lentas a veces y que repetimos demasiado ciertos conceptos. Ponen como ejemplo la gráfica del crecimiento logístico. Intentaré aportar más contenidos por si hay estudiantes que quieran incorporarlos a su aprendizaje. </span></p></li><li><p><span>También hay algunos comentarios sobre el uso de Prezi como herramienta para hacer presentaciones. Reconozco que esta herramienta puede ser compleja para tomar notas mientras se usa. Pero sus ventajas, en mi opinión, superan a las desventajas. Nos permite explorar cómo los conceptos ecológicos cambian con la escala espacial. Esto es algo importante en ecología. </span></p></li></ul></li></ul><p>&nbsp;</p><p><img src="https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/lo_que_no_gusta.png" referrerpolicy="no-referrer" alt="loquenogusta"></p><p>&nbsp;</p><ul><li><p><span>La última pregunta que abordamos nos permite explorar las limitaciones que los estudiantes perciben a la hora de ser más participativos en clase. La razón más frecuente es la timidez. Ahí poco puedo decir. Cada uno es como es. Solo quisiera animar a los estudiantes más tímidos a explorar formas de comunicación más discretas: telegram, encuestas, etc. Además de esta idea, surge un debate interesante sobre el miedo a cometer errores. Creo (y en esto coinciden algunos estudiantes) que desde pequeños nos inculcan este miedo. Ante eso, yo me pregunto, ¿qué sentido tiene ir a clase si uno ya sabe las cosas y no se equivoca? Además, el error es una estupenda oportunidad para aprender. Con cada uno de vuestros preguntas (correctas o incorrectas, yo intento extraer aprendizajes. Me permiten conoceros mejor y por tanto con eso puedo intentar personalizar la docencia. </span></p></li></ul><p>&nbsp;</p><p><img src="https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/impedimentos.png" referrerpolicy="no-referrer" alt="impedimentos"></p><p>&nbsp;</p><p><span>Concluimos la sesión con un compromiso renovado por parte de los estudiantes para mejorar su comunicación por distintas vías. Yo también renuevo el mío de atender en la medida de mis posibilidades vuestras necesidades. </span></p><p>&nbsp;</p><p>&nbsp;</p><hr /><p><span>Haz click </span><a href='https://github.com/aprendiendo-cosas/competencias_transversales/commits/main/reflexion_comunicacion'><span>aquí</span></a><span> para ver cómo ha cambiado este guión en los distintos cursos académicos.</span></p><hr /> <p xmlns:cc="http://creativecommons.org/ns#" >El contenido de este repositorio se puede utilizar bajo la siguiente licencia:  <a  href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"  target="_blank" rel="license noopener noreferrer"  style="display:inline-block;">CC BY-NC-SA 4.0<img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"  alt=""></a></p> <p>Esta licencia no aplica a enlaces a artículos, libros o imágenes no originales. Estos productos tienen su licencia correspondiente.</p></div></div>
+</body>
+</html>
