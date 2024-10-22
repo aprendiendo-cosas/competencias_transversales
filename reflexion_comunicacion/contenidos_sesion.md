@@ -21,15 +21,33 @@ Ante esto es frecuente que el profesor incurra en una serie de juicios de valor:
 
 Así que, de alguna forma, esta sesión es un intento por mi parte de exhortizar esos juicios de valor. Prefiero indagar y preguntar que juzgar a gente a la que apenas conozco aún. Ante el problema de falta de comunicación bidireccional, planteo las siguientes preguntas usando una presentación de Mentimeter:
 
-+ ¿Cómo de motivado/a estás en las clases de ecología y cuánta energía sientes cuando asistes? Esta pregunta pretende identificar la disposición de los individuos a aprovechar al máximo las oportunidades de aprendizaje que brinda esta asignatura. La siguiente gráfica muestra esta disposición para los estudiantes que decidieron contestar la pregunta. 
++ ¿Cómo de motivado/a estás en las clases de ecología y cuánta energía sientes cuando asistes? Esta pregunta pretende identificar la disposición de los individuos a aprovechar al máximo las oportunidades de aprendizaje que brinda esta asignatura. La siguiente gráfica muestra esta disposición para los estudiantes que decidieron contestar la pregunta. El promedio de la clase tiene valores promedio de motivación y energía. Curiosamente hay varios estudiantes que tienen poca motivación y mucha energía, aunque pocos que tienen poca energía y mucha motivación. Afortunadamente hay pocos que tienen poca energía y poca motivación. La mayoría están motivados y tienen energía.
 
-![motivacion_energia]
+![motivacion_energia](https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/motivacion_energia.png)
 
-
-
-
++ La segunda pregunta que abordamos está relacionada con los aspectos de la asignatura que están resultando positivos o que gustan a los estudiantes. Los resultados se muestran en la siguiente imagen. Me gusta constatar que los estudiantes son consciente de que me preocupo por ellos o que me interesa que aprendan a razonar. Pero lo que más me gusta es que les guste la "libertad". Es curioso que os guste mucho la salida a Sierra Nevada cuando aún no la hemos hecho :)
 
 
+
+![loquegusta](https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/lo_que_gusta.png)
+
++ También analizamos las cosas que no están gustando a la clase (ver siguiente imagen). Aquí encontramos un buen filón de ideas que nos ayudan a todos a entender por qué no hemos alcanzado aún una comunicación efectiva entre estudiantes y profesor. Veamos algunas de estas ideas
+  + Lo que más preocupa a los estudiantes es "no saber cómo estudiar". Ante esto, conversamos sobre lo siguiente:
+    + La asignatura de ecología es deliberadamente ambigua porque la mirada ecológica del mundo también lo es. La respuesta más común en ecología es "depende". Todo depende del contexto espacial, temporal, etc. No hay reglas absolutamente fijas. Por eso, si queremos aprender a ver el mundo con las gafas de la ecología, necesitamos también sostener la incertidumbre que eso implica. 
+    + Aún así, es posible estudiar esta asignatura y aprender con las clases. Propongo hacer lo siguiente para ello:
+      + Tomar apuntes en clase es importante. Reinterpretar lo que el profesor dice con tus propias palabras ayuda a fijar los conocimientos y a tomar conciencia del aprendizaje.
+      + También es útil revisar los contenidos vistos cada día. Para eso están los guiones.
+      + Otra recomendación que hago es que entrenéis la mirada ecológica en distintas situaciones de la vida cotidiana. Por ejemplo, ¿qué es el césped de Rabanales desde el punto de vista de la ecología?, ¿tiene sentido el concepto de diversidad en mi grupo de amigos?
+      + Preguntad es también una buenísima forma de aprender ecología. A mí, a vuestros compañeros, a ChatGPT, etc.
+      + Por último, os recomiendo que leais mucho. Artículos, libros, etc. Todo lo que caiga en vuestras manos y que "huela" a ecología será útil para fijar conocimientos. 
+    + Además de lo anterior, sospecho que detrás del "no sabemos cómo estudiar la asignatura" hay realmente un "no sabemos cómo se aprueba esta asignatura". Como he pasado varias veces por aquí, sospechaba que saldría esta cuestión. Uno de los problemas que tiene la clase es que estáis perdidos en el sentido de cómo aprobar. Ante esto, mi respuesta es la siguiente:
+      + En primer lugar, es importante tomar conciencia de que el mundo ha cambiado tanto en las últimas décadas que las formas de aprender tienen que adaptarse. Ya no es eficaz considerar al profesor como una especie de fuente de saber de la que los estudiantes beben. Ahora tenemos internet y muchas IAs que juegan ese papel. Ahora, el profesor es un acompañante. Alguien que os da hilos de los que vosotros tenéis que tirar. Yo me encargo de guiaros en una especie de "amueblamiento" de la mente. En ese proceso, la reflexión que intentamos fomentar en la asignatura es determinante. Debemos de entrenar a nuestro cerebro a pensar (lo dice Einstein...)
+
+![einstein](https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/einstein.png)
+
+
+
+![loquenogusta](https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/lo_que_no_gusta.png)
 
 
 
