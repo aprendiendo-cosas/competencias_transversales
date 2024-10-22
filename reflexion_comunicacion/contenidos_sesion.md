@@ -40,14 +40,17 @@ Así que, de alguna forma, esta sesión es un intento por mi parte de exhortizar
       + Otra recomendación que hago es que entrenéis la mirada ecológica en distintas situaciones de la vida cotidiana. Por ejemplo, ¿qué es el césped de Rabanales desde el punto de vista de la ecología?, ¿tiene sentido el concepto de diversidad en mi grupo de amigos?
       + Preguntad es también una buenísima forma de aprender ecología. A mí, a vuestros compañeros, a ChatGPT, etc.
       + Por último, os recomiendo que leais mucho. Artículos, libros, etc. Todo lo que caiga en vuestras manos y que "huela" a ecología será útil para fijar conocimientos. 
-    + Además de lo anterior, sospecho que detrás del "no sabemos cómo estudiar la asignatura" hay realmente un "no sabemos cómo se aprueba esta asignatura". Como he pasado varias veces por aquí, sospechaba que saldría esta cuestión. Uno de los problemas que tiene la clase es que estáis perdidos en el sentido de cómo aprobar. Ante esto, mi respuesta es la siguiente:
+    + Además de lo anterior, sospecho que detrás del "no sabemos cómo estudiar la asignatura" hay realmente un "no sabemos cómo se aprueba esta asignatura". Como he pasado varias veces por aquí, sospechaba que saldría esta cuestión. Uno de los problemas que tiene la clase es que estáis perdidos en el sentido de cómo aprobar. Ante esto, mi respuesta es la siguiente (aquí podéis ver las imágenes que proyecté mientras hablaba):
       + En primer lugar, es importante tomar conciencia de que el mundo ha cambiado tanto en las últimas décadas que las formas de aprender tienen que adaptarse. Ya no es eficaz considerar al profesor como una especie de fuente de saber de la que los estudiantes beben. Ahora tenemos internet y muchas IAs que juegan ese papel. Ahora, el profesor es un acompañante. Alguien que os da hilos de los que vosotros tenéis que tirar. Yo me encargo de guiaros en una especie de "amueblamiento" de la mente. En ese proceso, la reflexión que intentamos fomentar en la asignatura es determinante. Debemos de entrenar a nuestro cerebro a pensar (lo dice Einstein...)
+      + En la actualiadad tenemos multitud de herramientas que nos ayudan a acceder a toda la información disponible en el mundo. Además, desde hace un par de años, también disponemos de otras (IAs generativas), que son capaces de elaborar conocimiento y algo de comprensión. En unos años, estas herramientas alcanzarán la maestría. Podemos usar esas herramientas y llegar a la maestría con 25 años (estáis a tiempo) o no usarlas y esperar a los 60... Para conseguir esto necesitamos usar las herramientas a nuestro alcance. Y en este contexto, un profesor se transforma (esta es mi opinión) en alguien que guía y no tanto en alguien que sabe muchas cosas.
+      + Y es que el conocimiento no se transfiere de una mente a otra. No aprendéis porque yo os cuente cosas. Aprendéis cuando leéis, estudiáis en casa, habláis entre vosotros, etc. 
+      + Por último, las IAs generativas son una especie de tsunami que puede arrastrarnos sin que nos demos cuenta. Así que, ¿nos dejamos arrastrar o aprendemos a surfear? Yo prefiero lo segundo. ¿Jugamos?
+    
+    
 
-![einstein](https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/einstein.png)
 
 
-
-![loquenogusta](https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/lo_que_no_gusta.png)
+![pensar](https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/reflexion_comunicacion/einstein.png)
 
 
 
