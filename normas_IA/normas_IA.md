@@ -4,7 +4,7 @@
 > + **_Versión_**: 2025-2026
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es), tomando experiencias de otros profesores y estudiantes.
 
-![portada]()
+![portada](https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/imagenes/portada.png)
 
 ## Introducción y objetivos
 
