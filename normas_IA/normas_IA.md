@@ -1,8 +1,3 @@
----
-layout: default
-title: "normas_IA"
----
-
 # Algunas buenas prácticas sobre el uso de herramientas de inteligencia artificial en la Universidad
 
 
