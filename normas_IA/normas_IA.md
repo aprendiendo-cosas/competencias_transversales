@@ -121,17 +121,20 @@ Si hemos sido buenos en los pasos anteriores, habremos aprendido mucho. Y nos ha
 
 <p>Esta licencia no aplica a enlaces a artículos, libros o imágenes no originales. Estos productos tienen su licencia correspondiente.</p>
 
+---
 
-EMPEZANDO COMENTARIOS
 
-<iframe
+
+
+
+## Si tienes algo que decir, aquí abajo puedes hacerlo
+
+
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
   data-app-id="fcdc1c79-b0bd-4fde-b3ed-874d7f166442"
-  data-page-id="{{ PAGE_ID }}"
-  data-page-url="{{ PAGE_URL }}"
-  data-page-title="normas_IA"
+  data-page-id="normas_IA"
+  data-page-url="https://aprendiendo-cosas.github.io/competencias_transversales/normas_IA/normas_IA.html"
+  data-page-title="pruebacusdis"
 ></div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-
-COMENTARIOS VAN ARRIBA DE ESTO
