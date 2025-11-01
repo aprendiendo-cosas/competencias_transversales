@@ -129,12 +129,20 @@ Si hemos sido buenos en los pasos anteriores, habremos aprendido mucho. Y nos ha
 
 ## Si tienes algo que decir, aquí abajo puedes hacerlo
 
+<style>
+#cusdis_thread {
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+</style>
+
 <div id="cusdis_thread"
-  style="width:1000px"
-  data-host="https://cusdis.com"
-  data-app-id="fcdc1c79-b0bd-4fde-b3ed-874d7f166442"
-  data-page-id="normas_IA"
-  data-page-url="https://aprendiendo-cosas.github.io/competencias_transversales/normas_IA/normas_IA.html"
-  data-page-title="pruebacusdis"
-></div>
+     data-host="https://cusdis.com"
+     data-app-id="fcdc1c79-b0bd-4fde-b3ed-874d7f166442"
+     data-page-id="normas_IA"
+     data-page-url="https://aprendiendo-cosas.github.io/competencias_transversales/normas_IA/normas_IA.html"
+     data-page-title="normas_IA">
+</div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
