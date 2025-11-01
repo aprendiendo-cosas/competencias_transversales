@@ -1,4 +1,4 @@
-# Normas de uso de herramientas de inteligencia artificial
+# Algunas buenas prácticas sobre el uso de herramientas de inteligencia artificial en la Universidad
 
 
 > + **_Versión_**: 2025-2026
@@ -10,15 +10,15 @@
 
 Las IAs generativas se han convertido en una herramienta ubicua en los tiempos actuales. Para bien y para mal, estos instrumentos son usados de manera cotidiana por estudiantes y profesores. A pesar de su tremendo auge, no sabemos bien cuáles serán los efectos de su uso en casi ningún ámbito. Ni a escala individual (supuesto impacto en la capacidad cognitiva) ni a escala social (cambio en el mercado laboral, etc.). Como ocurre con otras tecnologías disruptivas, primero se aplican y luego experimentamos (sufrimos y disfrutamos) las consecuencias. No parece lo más inteligente, pero es la realidad a la que debemos adaptarnos.
 
-Y sobre adaptación va este compendio de normas. Lejos de posicionarme en el extremo de los devotos de las IAs o de los que las consideran como la herramienta que acabará con la educación, opto por una posición de "espera activa". Mientras los expertos deciden si estas herramientas son positivas o no para el aprendizaje, yo me dejo guiar por mi intuición y por mi experiencia. Eso quiere decir que en este guión hay poca evidencia científica. Las normas que se describen a continuación son solo un conjunto de propuestas de buenas prácticas para abordar un reto complejo. Es decir, estas normas son mi respuesta adaptativa a la irrupción de esta tecnología en las aulas. Creo que esta actitud de aprendizaje activo puede ser útil para ayudarnos a usar estas herramientas de manera efectiva. Y en la educación, esto implica, en mi opinión, fomentar el aprendizaje profundo.
+Y sobre adaptación va este compendio de normas. Lejos de posicionarme en el extremo de los devotos de las IAs o en el de los que las consideran como la herramienta que acabará con la educación, opto por una posición de "espera activa". Mientras los expertos dilucidan si estas herramientas son positivas o no para el aprendizaje, yo me dejo guiar por mi intuición y por mi experiencia. Eso quiere decir que en este guión hay poca evidencia científica. Las normas que se describen a continuación son solo un conjunto de propuestas de buenas prácticas para abordar un reto complejo. Es decir, estas normas son mi respuesta adaptativa a la irrupción de esta tecnología en las aulas. Creo que esta actitud de aprendizaje activo puede ser útil para ayudarnos a usar estas herramientas de manera efectiva. Y en la educación, esto implica, en mi opinión, fomentar el aprendizaje profundo.
 
 Así que, la hipótesis con la que me adentro en el mundo de las IAs aplicadas a la docencia es (por ahora) la siguiente:
 
 > Un buen uso de las IAs (y de cualquier otra herramienta digital) contribuirá de manera significativa a mejorar las competencias disciplinares, personales e interprersonales de los estudiantes.
 
-En mi cabeza esta hipótesis suena así traducida a lenguaje llano: creo que las IAs pueden contribuir a que los estudiantes de 20 años alcancen con esa edad habilidades y competencias que yo (cincuentón) adquirí a los treintaymuchos (siendo optimista). Si me vengo arriba hasta me atrevería a decir que el diálogo con las IAs puede (debe) promover que subamos el listón de la educación y que afilemos nuestras competencias genuinamente humanas (ej. creatividad, pensamiento crítico, inclusividad, empatía, compasión, etc.). 
+En mi cabeza esta hipótesis suena así, traducida a lenguaje llano: creo que las IAs pueden contribuir a que los estudiantes de 20 años alcancen con esa edad habilidades y competencias que yo (cincuentón) adquirí a los treintaymuchos (siendo optimista). Si me vengo arriba hasta me atrevería a decir que el diálogo con las IAs puede (debe) promover que subamos el listón de la educación y que afilemos nuestras competencias genuinamente humanas (ej. creatividad, pensamiento crítico, inclusividad, empatía, compasión, etc.). 
 
-No mencionaré aquí las sombras potenciales y reales de las IAs. No porque no crea que existan. Existen y son muy visibles. La razón de evitar entrar ahí es que prefiero mirar este asunto desde el optimismo de la voluntad en lugar que desde el pesimismo de la realidad. Ensalzar las potenciales ventajas no niega las desventajas. Esto se traduce en el principio de precaucción. Una de las buenas prácticas que propongo (proponemos) dice eso: ante la duda de si debes usar o no la IA para algo, mejor no la uses.
+No mencionaré aquí las sombras potenciales y reales de las IAs. No porque no crea que existan. Existen y son muy visibles. La razón de evitar entrar ahí es que prefiero mirar este asunto desde el optimismo de la voluntad en lugar que desde el pesimismo de la realidad. Tratar de hacer realidad las potenciales ventajas no niega las desventajas. Esto se traduce en el principio de precaucción. Una de las buenas prácticas que propongo (proponemos) dice eso: si tienes dudas sobre si usar la IA en una situación concreta fomentará o no tu aprendizaje, entonces no la uses.
 
 En definitiva, las siguientes normas o buenas prácticas asumen que la clave de las IAs no son ellas *per se*, sino la forma en la que las usamos. Como pasa en tantos ámbitos de la vida, la clave no es tanto el *qué*, sino el *cómo*. En este sentido, muchas veces nos resulta más fácil enumerar los cómos no útiles que formular los usos virtuosos. Así que, empezaremos por ahí:
 
@@ -26,20 +26,20 @@ En definitiva, las siguientes normas o buenas prácticas asumen que la clave de 
 
 ## Cuándo no usar las IAs
 
-+ Creación de contenido. Si le trasladas a una IA la misma pregunta que te hago yo en un ejercicio y copias su contenido, estarás dejando que una herramienta digital te suplante. No aprenderás, el profesor se dará cuenta y tendrás una calificación mala (un cero pelotero). Leer, procesar lo leído y escribir son habilidades fundamentales. Son armas claves que articulan nuestra mente. No dejes que una IA ocupe ese lugar. 
++ Creación de contenido. Si le trasladas a una IA la misma pregunta que te hace un profesor en un ejercicio y copias su respuesta, estarás dejando que una herramienta digital te suplante. No aprenderás, el profesor se dará cuenta y tendrás una calificación mala (un cero pelotero). Leer, procesar lo leído y escribir son habilidades fundamentales. Son armas claves que articulan nuestra mente. No dejes que una IA ocupe ese lugar. 
 
 + Tareas muy personales. Nunca delegues en una IA tu opinión sobre algo. Esto socava tu capacidad de pensamiento crítico. Y eso es una de las cosas que nos hace humanos.
 
-+ Tareas que impliquen usar habilidades que ya tienes y que podrías perder si encargas a una IA. Este uso es uno de los más tentadores de estas herramientas. Por ejemplo, alguien te pide escribir un texto y tú se lo encargas a una IA porque eso te llevará menos tiempo. Esto irá erosionando poco a poco tu habilidad de reflexión y de escritura crítica. Escribir es el primer paso de pensar. Si pierdes el hábito de escribir, seguramente también te acabará resultando difícil pensar de manera profunda, crítica y reflexiva.
++ Tareas que impliquen usar habilidades que ya tienes y que podrías perder si encargas a una IA. Este uso es uno de los más tentadores de estas herramientas. Por ejemplo, alguien te pide escribir un texto y tú se lo encargas a una IA porque eso te llevará menos tiempo. Esto irá erosionando poco a poco tu habilidad de reflexión y de escritura crítica. Escribir es muchas veces el primer paso del pensar. Si pierdes el hábito de escribir, seguramente también te acabará resultando difícil pensar de manera profunda, crítica y reflexiva.
 
-+ Si tienes dudas sobre si usar o no una IA, aplica el principio de precaución: pregunta a alguien con más experiencia que tú o no las uses. 
++ Si tienes dudas sobre si usar una IA no está promoviendo tu aprendizaje, aplica el principio de precaución: pregunta a alguien con más experiencia que tú o no las uses. 
 
 
 
 ## En qué circunstancias sí es buena idea usar las IAs
 
 + Tareas mecánicas que no te aporte nada hacer sin IA. En estos casos, las IAs son asistentes que pueden hacer por ti tareas tediosas. Ese tiempo puede ser usado para aprender cosas nuevas. Algunos ejemplos de estos usos podrían ser: 
-  + Trascribir un audio.
+  + Transcribir un audio a texto.
   + Buscar bibliografía relevante sobre un tema.
   + Comparar textos.
 
@@ -47,7 +47,7 @@ En definitiva, las siguientes normas o buenas prácticas asumen que la clave de 
 + Tareas muy simples que están muy por debajo de tus capacidades. Por ejemplo:
   + Hacer cálculos.
   + Repetir procesos cuya estructura ya conoces bien.
-+ Tareas que están muy por encima de tus capacidades o habilidades. Aquí hay un uso clave en el aprendizaje. En estos casos usamos a las IAs como copilotos o asistentes que permiten expandir nuestra capacidad de hacer algo. Algunos ejemplos de estos usos:
++ Tareas que están muy por encima de tus capacidades o habilidades. Aquí hay un uso clave en el aprendizaje. En estos casos usamos a las IAs como copilotos o asistentes que permiten expandir nuestra capacidad de hacer algo. Intenta maximizar el número de veces en los que usas las IA para esto. Aprenderás más y mejor. Algunos ejemplos de estos usos:
   + Aprender a programar.
   + Aprender a generar flujos de procesamiento de datos.
   + Adquirir conocimiento profundo sobre conceptos nuevos (mediante el diálogo con una IA)
@@ -107,9 +107,9 @@ Además, Notebook LM dispone de la capacidad de crear mapas mentales sobre los d
 
 
 
-### Profundización con ChatGPT
+### Profundización con ChatGPT o Claude
 
-Si hemos sido buenos en los pasos anteriores, habremos aprendido mucho. Y nos habrán surgido preguntas cuya respuesta puede que no esté en las fuentes que hemos recopilado. Aquí es donde entra el chat conversacional por excelencia, ChatGPT. Esta IA dispone de una herramienta de estudio que está especialmente ideada para dar respuestas a estudiantes. Aporta explicaciones interactivas, prepara cuestionarios para afianzar los resultados del aprendizaje, etc.
+Si hemos sido buenos en los pasos anteriores, habremos aprendido mucho. Y nos habrán surgido preguntas cuya respuesta puede que no esté en las fuentes que hemos recopilado. Aquí es donde entra el chat conversacional por excelencia, [ChatGPT](https://chatgpt.com/). Esta IA dispone de una herramienta de estudio que está especialmente ideada para dar respuestas a estudiantes. Aporta explicaciones interactivas, prepara cuestionarios para afianzar los resultados del aprendizaje, etc. [Claude](https://claude.ai) es otra IA muy potente que tiene funcionalidades similares. Es especialmente útil para aprender a programar. 
 
 
 
