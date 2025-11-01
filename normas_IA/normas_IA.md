@@ -129,8 +129,8 @@ Si hemos sido buenos en los pasos anteriores, habremos aprendido mucho. Y nos ha
 
 ## Si tienes algo que decir, aquí abajo puedes hacerlo
 
-
 <div id="cusdis_thread"
+  style="width:1000px"
   data-host="https://cusdis.com"
   data-app-id="fcdc1c79-b0bd-4fde-b3ed-874d7f166442"
   data-page-id="normas_IA"
