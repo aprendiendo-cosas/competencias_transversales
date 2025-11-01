@@ -131,7 +131,7 @@ Si hemos sido buenos en los pasos anteriores, habremos aprendido mucho. Y nos ha
 
 <style>
 #cusdis_thread {
-  width: 2000px;
+  min-height: 500px;
   max-width: 100%;
   margin: 0 auto;
 }
