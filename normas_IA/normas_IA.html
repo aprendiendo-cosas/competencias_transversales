@@ -628,6 +628,17 @@ header, .context-menu, .megamenu-content, footer{
      data-page-url="https://aprendiendo-cosas.github.io/competencias_transversales/normas_IA/normas_IA.html"
      data-page-title="normas_IA">
 </div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script><p>&nbsp;</p></div></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script><script>
+window.addEventListener('load', function () {
+    setTimeout(() => {
+        // Busca el iframe generado por Cusdis dentro del div con id "cusdis_thread"
+        let iframe = document.querySelector("#cusdis_thread iframe");
+        if (iframe && iframe.contentWindow && iframe.contentWindow.document && iframe.contentWindow.document.body) {
+            let scrollHeight = iframe.contentWindow.document.body.scrollHeight;
+            iframe.style.height = scrollHeight + "px";
+        }
+    }, 3000);
+});
+</script><p>&nbsp;</p><p>&nbsp;</p></div></div>
 </body>
 </html>
