@@ -127,7 +127,9 @@ Si hemos sido buenos en los pasos anteriores, habremos aprendido mucho. Y nos ha
 
 
 
-## Si tienes algo que decir, aquí abajo puedes hacerlo
+## Estaré encantado de leer y de tener en cuenta tus comentarios sobre este asunto:
+
+
 
 <style>
 #cusdis_thread {
@@ -157,6 +159,5 @@ window.addEventListener('load', function () {
     }, 3000);
 });
 </script>
-
 
 
