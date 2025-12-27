@@ -4,6 +4,10 @@
 > + **_Versión_**: 2025-2026
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
 
+![portada](https://raw.githubusercontent.com/aprendiendo-cosas/competencias_transversales/refs/heads/main/imagenes/portada_preguntas_pensar.png)
+
+
+
 
 
 
