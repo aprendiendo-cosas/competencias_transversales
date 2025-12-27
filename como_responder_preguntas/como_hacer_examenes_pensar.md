@@ -13,14 +13,14 @@
 
 ## Introducción
 
-En la actualidad disponemos de una enorme cantidad de información sobre casi cualquier cosa. Con solo un ordenador (o un móvil) conectado a internet, podemos aprender casi de lo que queramos. En este contexto, ¿qué sentido tiene aprender o memorizar? Si todo está a un click de ratón, ¿por qué tenemos que aprenderlo? Puede que la respuesta a esta pregunta vaya cambiando con el tiempo conforme avancen las técnicas de generación de información mediante inteligencia artificial, pero por ahora la clave está en las palabras **integración** y **síntesis**. Internet nos aporta una enorme cantidad de información, pero lo relevante es generar conocimiento a partir de esa información. El conocimiento se adquiere mediante el análisis, comprensión, la integración y la síntesis de la información sobre un aspecto determinado de la realidad. 
+En la actualidad disponemos de una enorme cantidad de información sobre casi cualquier cosa. Con solo un ordenador (o un móvil) conectado a internet, podemos aprender casi de lo que queramos. En este contexto, ¿qué sentido tiene aprender o memorizar? Si todo está a un click de ratón, ¿por qué tenemos que aprenderlo? Puede que la respuesta a esta pregunta vaya cambiando con el tiempo conforme avancen las técnicas de generación de información mediante inteligencia artificial, pero por ahora la clave está en las palabras **integración** y **síntesis**. Internet nos aporta una enorme cantidad de información, pero lo relevante es generar conocimiento a partir de esa información. El conocimiento se adquiere mediante el análisis, comprensión, la integración y la síntesis de la información sobre un aspecto determinado de la realidad. La memoria juega un papel fundamental en todo este proceso. Pero no en el sentido de memorizar material sin más. La memoria es determinante para comprender de manera profunda conceptos complejos.
 
 Así pues, para generar conocimiento (útil) es necesario integrar y sintetizar la información disponible. Esto implica, en la mayoría de los casos, la reflexión profunda sobre los datos existentes. También requiere la existencia de habilidades de expresión oral y escrita que permitan describir el conocimiento adquirido.
 
-Las preguntas de las asignatura de *ecología* y de *gestión de ecosistemas* requieren poner en juego todas las habilidades anteriores. Para superar los exámenes de estas asignaturas es necesario aprender a contestar preguntas que los estudiantes suelen denominar "de pensar". Para ello los estudiantes tienen a su alcance una conexión a internet, uso de herramientas de IA y también acceso a los apuntes de las asignaturas. ¿A qué se debe ese empeño en este tipo de preguntas? Hay dos razones fundamentales para esto:
+Las preguntas que nos planteamos en las asignatura de *ecología* y de *gestión de ecosistemas* requieren poner en práctica las habilidades anteriores. Para superar los exámenes de estas asignaturas es necesario aprender a contestar preguntas que los estudiantes suelen denominar "de pensar". Para ello los estudiantes tienen a su alcance una conexión a internet, uso de herramientas de IA y también acceso a los apuntes de las asignaturas. ¿A qué se debe ese empeño en este tipo de preguntas? Hay dos razones fundamentales para esto:
 
 + Los objetos de estudio de ambas asignaturas son sistemas complejos adaptativos. En estos sistemas tienen mucha importancia las llamadas propiedades emergentes. Estas propiedades determinan en buena medida el funcionamiento del sistema y su respuesta a estímulos externos. La gran complejidad de estos sistemas los hace poco deterministas. Es decir, hay mucha incertidumbre asociado a cada posible cambio en el sistema. Por eso la respuesta "depende" es tan habitual. En la vida real no suele haber respuestas sencillas a las preguntas que nos hacemos en ecología. Eso hace que la respuesta final no sea fácilmente etiquetable como correcta o incorrecta. Lo que sí puede estar bien o mal es la aproximación, el razonamiento utilizado para llegar a dicha respuesta. Es decir, para aprender bien la estructura, dinámica y manejo de estos sistemas complejos es fundamental aprender a responder preguntas complejas. Las preguntas "de pensar" son un estupendo entrenamiento para ello.
-+ La segunda razón se deriva de la primera: el mundo está lleno de sistemas complejos adaptativos. En la Universidad nos enfrentamos solo parcialmente a esta complejidad. Hay una red de seguridad que solo nos muestra algunas preguntas, casi siempre las más sencillas. Dicho de otra forma, después de la universidad todo en vuestras vidas estará lleno de preguntas complejas cuya respuesta es *depende*. Es razonable pensar que aprender a responder, o más bien a bailar con esas preguntas, en un ambiente controlado como la Universidad tiene menos riesgo que esperarse a terminar para enfrentarlas. ¿no os parece?
++ La segunda razón se deriva de la primera: el mundo está lleno de sistemas complejos adaptativos. En la Universidad nos enfrentamos solo parcialmente a esta complejidad. Hay una red de seguridad que solo nos muestra algunas preguntas, casi siempre las más sencillas. Dicho de otra forma, después de la universidad todo en vuestras vidas estará lleno de preguntas complejas cuya respuesta es "depende". Es razonable pensar que aprender a responder, o más bien a bailar con esas preguntas, en un ambiente controlado como la Universidad tiene menos riesgo que esperarse a terminar para enfrentarlas. ¿no os parece?
 
 Dicho lo anterior, todas las técnicas docentes de este profesor van orientadas a entrenar las habilidades necesarias para abordar problemas complejos. Ahí va una pequeña lista de dichas habilidades:
 
@@ -33,18 +33,26 @@ Dicho lo anterior, todas las técnicas docentes de este profesor van orientadas 
 
 ## Propuesta de abordaje de preguntas de reflexión en ecología y en gestión de ecosistemas
 
-Para responder adecuadamente a una pregunta reflexiva o compleja, es importante seguir una serie de pasos. A continuación os propongo una organización que se parece mucho a lo que hago yo cuando me enfrento a una pregunta de este tipo. Pero estos pasos son personalizables y dependen de la forma en la que piense y procese la información cada uno. Es decir, es necesario adaptarlos, personalizarlos. Para esto es fundamental tener un amplio conocimiento metacognitivo: capacidad de comprender cómo pensamos y cómo aprendemos. Con esto quiero decir que no os toméis al pie de la letra los siguientes pasos. Son solo una propuesta que podréis adaptar con el tiempo a vuestra forma de pensar. De hecho, lo realmente importante no son los siguientes pasos, sino que haya unos pasos... Para hacer cualquier cosa en la vida, es necesario tener un plan. Lo que viene a continuación es una propuesta de plan que podréis adaptar a vuestra situación. Por último, antes de describirlos, quiero remarcar que otra clave importante es el entrenamiento. Nuestro cerebro aprende en buena medida por repetición. En la medida en la que automaticemos procedimientos, nuestro cerebro va mejorando sus habilidades reflexivas e integrativas. Por eso la clave es repetir el siguiente esquema muchas veces.
+Para responder adecuadamente a una pregunta reflexiva o compleja, es importante seguir una serie de pasos. A continuación os propongo una organización que se parece mucho a lo que hago yo cuando me enfrento a una pregunta de este tipo. Pero estos pasos son personalizables y dependen de la forma en la que piense y procese la información cada uno. Es decir, es necesario adaptarlos, personalizarlos. Para esto es fundamental tener un amplio conocimiento metacognitivo: capacidad de comprender cómo pensamos y cómo aprendemos. Con esto quiero decir que no os toméis al pie de la letra los siguientes pasos. Son solo una propuesta que podréis adaptar con el tiempo a vuestra forma de pensar. De hecho, lo realmente importante no son los siguientes pasos, sino que haya unos pasos... Para hacer cualquier cosa en la vida, es necesario tener un plan. Lo que viene a continuación es una propuesta de plan que podréis adaptar a vuestra situación. Por último, antes de describirlos, quiero remarcar que otra clave importante es el entrenamiento. Nuestro cerebro aprende en buena medida por repetición. En la medida en la que automaticemos procedimientos, nuestro cerebro va mejorando sus habilidades reflexivas e integrativas. Por eso la clave es repetir el siguiente esquema (y otro parecido) muchas veces.
 
 Vamos a ello:
 
 ### Leer y entender la pregunta (5')
 Este primer paso parece demasiado obvio. Me atrevería a decir que es casi ofensivo... Estoy seguro de que fuera de un examen sois más que capaces de leer y entender una pregunta. Pero los nervios del examen suelen jugarnos malas pasadas. Así que, insisto: debes de leer la pregunta tantas veces como sea necesaria para entenderla. Uno sabe que ha entendido algo cuando es capaz de explicárselo a su abuela. Al menos eso es lo que dicen que dijo Einstein. Sea o no cierta la cita, tiene mucho sentido. Bueno, en un examen no tendrás a tu abuela para explicarle nada. Nuestro cerebro es capaz de elaborar un discurso coherente cuando ha entendido los elementos que constituyen dicho discurso.
 
-Este primer paso puede durar unos 5 minutos. Si tienes dudas, pregúntalas al profesor. Si tu pregunta es mala, obtendrás una respuesta mala. Si tu pregunta es elaborada, seguramente no necesitarás la respuesta porque te vendrá a la cabeza justo después de formularla. Nuestro cerebro funciona a así. Toma conciencia de cosas anteriormente desconocidas cuando es capaz de hilbanar adecuadamente una pregunta. 
+Además de leer varias veces la pregunta, es útil lanzarle a la pregunta otras preguntas. Me explico. Se ha comprobado que la generación de preguntas como herramienta para entender algo es más poderosa que la lectura pasiva. Así, te animo a que formules preguntas como las siguientes:
+
++ ¿Qué elementos son importantes para contestar la pregunta?
++ ¿Qué marcos conceptuales o teorías puedo utilizar para responder la pregunta?
+
+Este primer paso puede durar unos 5 minutos. Se trata del primer nivel cognitivo necesario para poder responder una pregunta compleja. Aunque parezca fácil, es fundamental porque sin haber superado esta fase no podrás abordar las siguientes. Si tienes dudas, pregúntalas al profesor. Si tu pregunta es mala, obtendrás una respuesta mala. Si tu pregunta es elaborada, seguramente no necesitarás la respuesta porque te vendrá a la cabeza justo después de formularla. Nuestro cerebro funciona a así. Toma conciencia de cosas anteriormente desconocidas cuando es capaz de hilvanar adecuadamente una pregunta. 
 
 En este primer paso no recomiendo que uséis herramientas de IA. Estas herramientas son aún muy primitivas y tienen una capacidad explicativa relativa. En cualquier caso, si preguntáis, hacedlo de la forma más específica y detallada posible. 
 
+
+
 ### Identificar conceptos e ideas clave de la pregunta (5')
+
 Seguramente en el paso anterior se irán poniendo de manifiesto ideas o conceptos que te resultan claves. Por ejemplo, si en la pregunta se menciona una especie concreta, pues su nombre y ecología serán elementos importantes para responderla. Ahora es el momento de subrayar o anotar dichos conceptos de alguna forma. A mí me gusta mucho usar mapas mentales, pero tú puedes usar la herramienta que prefieras.
 
 Puede que algunos de los conceptos que consideres clave sean desconocidos para ti. Es importante que encuentres esas ideas cuanto antes porque eso te permitirá (en los siguientes pasos) recopilar información sobre ellos. 
@@ -103,6 +111,49 @@ El siguiente vídeo muestra de manera práctica cómo contestar una pregunta "de
 
 <iframe width="560" height="515" src="https://www.youtube.com/embed/XA3HnBd-qDI?si=JAKUKnXQ-IlY8j_n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+
+****
+ <p xmlns:cc="http://creativecommons.org/ns#" >El contenido de este repositorio se puede utilizar bajo la siguiente licencia:  <a  href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"  target="_blank" rel="license noopener noreferrer"  style="display:inline-block;">CC BY-NC-SA 4.0<img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"  alt=""></a></p> 
+
+<p>Esta licencia no aplica a enlaces a artículos, libros o imágenes no originales. Estos productos tienen su licencia correspondiente.</p>
+
+---
+
+
+
+### Estaré encantado de leer y de tener en cuenta tus comentarios sobre este texto
+
+
+
+<style>
+#cusdis_thread {
+  max-width: 100%;
+  margin: 0 auto;
+}
+</style>
+
+<div id="cusdis_thread"
+     data-host="https://cusdis.com"
+     data-app-id="fcdc1c79-b0bd-4fde-b3ed-874d7f166442"
+     data-page-id="como_hacer_examenes_pensar"
+     data-page-url="https://aprendiendo-cosas.github.io/competencias_transversales/como_responder_preguntas/como_hacer_examenes_pensar.html"
+     data-page-title="Conf_ingenieria_regenerativa_sistemas_complejos">
+</div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
+<script>
+window.addEventListener('load', function () {
+    setTimeout(() => {
+        // Busca el iframe generado por Cusdis dentro del div con id "cusdis_thread"
+        let iframe = document.querySelector("#cusdis_thread iframe");
+        if (iframe && iframe.contentWindow && iframe.contentWindow.document && iframe.contentWindow.document.body) {
+            let scrollHeight = iframe.contentWindow.document.body.scrollHeight;
+            iframe.style.height = scrollHeight + "px";
+        }
+    }, 3000);
+});
+</script>
 
 
 
