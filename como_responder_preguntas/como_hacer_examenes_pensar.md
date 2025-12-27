@@ -1,7 +1,7 @@
  # Cómo contestar una pregunta "de pensar"
 
 
-> + **_Versión_**: 2023-2024
+> + **_Versión_**: 2025-2026
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
 
 

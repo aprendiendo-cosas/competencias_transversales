@@ -26,7 +26,7 @@ En definitiva, las siguientes normas o buenas prácticas asumen que la clave de 
 
 ## Cuándo no usar las IAs
 
-+ Creación de contenido. Si le trasladas a una IA la misma pregunta que te hace un profesor en un ejercicio y copias su respuesta, estarás dejando que una herramienta digital te suplante. No aprenderás, el profesor se dará cuenta y tendrás una calificación mala (un cero pelotero). Leer, procesar lo leído y escribir son habilidades fundamentales. Son armas claves que articulan nuestra mente. No dejes que una IA ocupe ese lugar. 
++ Creación de contenido. Si le trasladas a una IA la misma pregunta que te hace un profesor en un ejercicio y copias su respuesta, estarás dejando que una herramienta digital te suplante. No aprenderás, el profesor se dará cuenta y tendrás una calificación mala (un cero pelotero). Leer, procesar lo leído y escribir son habilidades fundamentales. Son armas claves que articulan nuestra mente. No dejes que una IA ocupe ese lugar. En otras palabras, nunca, bajo ningún concepto delegues en una IA tu capacidad de comprender algo.
 
 + Tareas muy personales. Nunca delegues en una IA tu opinión sobre algo. Esto socava tu capacidad de pensamiento crítico. Y eso es una de las cosas que nos hace humanos.
 
