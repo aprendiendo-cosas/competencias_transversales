@@ -125,7 +125,18 @@ Si hemos sido buenos en los pasos anteriores, habremos aprendido mucho. Y nos ha
 
 ---
 
+ACTUALIZACIÓN 25-26
 
+
+
++ en el examen muchos me preguntáis cómo usar la ia. tenéis duda de cómo de profunda de be de ser la interacción
++ ¿hay un número de preguntas mínimo que haya que hacer?
++ No sé la respuesta como tal. no sé cómo medirla bien. lo que quiero es que uséis las ias para aprender. Se trata de ver en qué medida combináis lo que sabéis con lo que os da la ia para construir una respuesta coherente a una pregunta imposible de contestar por vosotros mismos.
++ ¿cómo se mide eso?
++ Ejemplos:
+  + el que no sabe nada y se lo pide todo a la ia
+  + el que no da contexto
+  + un buen ejemplo
 
 
 
