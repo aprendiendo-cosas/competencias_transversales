@@ -77,6 +77,8 @@ La tentación inicial es plantear a la IA la pregunta de la forma más directa y
   - *Si he entendido bien, una metapoblación es como una población más grande. ¿es correcta esta afirmación?* (Ya te digo yo que no lo es).
 - Busca información por varias vías diferentes. Usa varias herramientas IA. Esto te dará una perspectiva más completa. 
 - Si usas la IA en un examen, nunca le digas a la herramienta que estás en un examen. Si lo haces, te contestará siempre con frases hechas que, según la IA te "ayudarán a sacar mayor nota". El objetivo del uso de la IA en un examen no es que saques mejor nota. Es que aprendas mucho más y consigas responder a una pregunta que, de otra forma, habría sido imposible de contestar para ti. Y si haces eso bien, sacarás más nota. No sacarás más nota con frases hechas por una herramienta digital. 
+- NO SOLO PEDIRLE QUE CORRIJA LO QUE TÚ HAS DICHO
+- CONVERSAR CON LA IA NO ES PEDIRLE COSAS Y PEDIRLE QUE REPITA LAS IDEAS SI NO LAS HAS ENTENDIDO. ES MÁS EFICAZ PARA TU APRENDIZAJE QUE FORMULES PREGUNTAS MÁS ELABORADAS MOSTRANDO LO QUE HAS ENTENDIDO DE ALGO Y LO QUE NO. 
 
 
 
